@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-image: url("/images/fashion-2208045_1280.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  position: relative;
+}
+
+nav {
+  background-color: #2a2d2d;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  justify-content: space-between;
+  top: 0px;
+  left: 0;
+  right: 0;
+  padding: 5px 0 60px 0 60px;
+}
+nav h2 {
+  color: white;
+  margin-left: 0.5rem;
+}
+
+nav ul {
+  margin-top: 5px;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+nav li span {
+  padding-left: 5px;
+  background-color: #b26c48;
+}
+
+li a {
+  text-decoration: none;
+  padding-right: 4px;
+  padding-left: 4px;
+  border-radius: 4px;
+  background-color: white;
+  color: #b26c48;
+}
+
+.cart ion-icon {
+  vertical-align: bottom;
+  font-size: 18px;
+  padding-right: 5px;
+  background-color: #b26c48;
+}
+
+.cart a {
+  background-color: #b26c48;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.image {
+  position: relative;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.image img {
+  height: 250px;
+  width: 200px;
+  border: solid rgb(221, 221, 221);
+}
+
+.add-cart {
+  position: absolute;
+  width: 100%;
+  background-color: #d69778;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  cursor: pointer;
+  text-align: center;
+}
+
+.image:hover .cart1,
+.image:hover .cart2,
+.image:hover .cart3,
+.image:hover .cart4,
+.image:hover .cart5,
+.image:hover .cart6 {
+  bottom: 50px;
+  opacity: 1;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.products-container {
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.products {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.products ion-icon {
+  font-size: 15px;
+  color: #b26c48;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.products img {
+  height: 100px;
+  width: 75px;
+}
+
+.product-header {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightgrey;
+  margin: 0 auto;
+}
+
+.product-title {
+  width: 45%;
+  border-bottom: 1px solid lightgrey;
+}
+
+.price {
+  width: 10%;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+}
+
+.quantity {
+  width: 30%;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding-left: 20px;
+}
+
+.total {
+  width: 15%;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+}
+
+.product {
+  width: 45%;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.basketTotalContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.basketTotalTitle {
+  width: 30%;
+}
+
+.basketTotal {
+  width: 15%;
+}
+
+.orderBox {
+  width: 100%;
+  max-width: 650px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+}
+
+.reset {
+  display: flex;
+  justify-self: flex-end;
+
+  background-color: #b26c48;
+  border-radius: 4px;
+  color: white;
+  padding: 2px 2px;
+  border-color: transparent;
+}
+
+.reset:hover {
+  background-color: #d69778;
+}
+
+.bottom {
+  margin-bottom: 0;
+  margin-top: 10rem;
+}
+
+.overFooter {
+  width: 100%;
+  height: 50px;
+  background-color: #2a2d2d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.overFooter img {
+  height: 37px;
+}
+
+footer {
+  border-top: solid #000000;
+  text-align: center;
+  color: white;
+  background-color: #000000;
+  height: 100px;
+
+  width: 100%;
+}
+
+.bottom1 {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.bottom2 {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 450px;
+}
